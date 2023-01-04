@@ -12,7 +12,7 @@ const Header = () => {
 
             <div className="buttons flex">
                 <button className={`mr-[25px] ` + buttonStyle}>Sign up</button>
-                <button className={buttonStyle}>Log in</button>
+                <button className={`bg-[#232A4E] hover:bg-[#081730] ` + buttonStyle}>Log in</button>
             </div>
         </div>
     );
