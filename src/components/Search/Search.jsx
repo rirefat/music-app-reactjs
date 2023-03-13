@@ -14,7 +14,12 @@ const Search = () => {
             </div>
 
             {/*================= Right Section ==================*/}
-            <div className="right"></div>
+            <div className="right">
+                <input type="text" name="" id="" />
+                <div className="img">
+                    <img src="" alt="" />
+                </div>
+            </div>
         </div>
     );
 };
