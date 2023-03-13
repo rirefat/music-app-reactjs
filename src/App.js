@@ -3,6 +3,7 @@ import './App.css';
 import Experience from './components/Experience/Experience';
 import Header from './components/Header/Header';
 import HeroSection from './components/HeroSection/HeroSection';
+import Search from './components/Search/Search';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Header></Header>
       <HeroSection></HeroSection>
       <Experience></Experience>
+      <Search></Search>
     </div>
   );
 };
